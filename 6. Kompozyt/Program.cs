@@ -19,21 +19,14 @@ public class Lisc : Kompozyt
         Console.WriteLine(Nazwa + " renderowanie...");
     }
 
-    public void DodajElement(Kompozyt element)
-    {
+    public void DodajElement(Kompozyt element) { }
 
-    }
-
-    public void UsunElement(Kompozyt element)
-    {
-    }
-    // konstruktor
+    public void UsunElement(Kompozyt element) { }
 }
 
 
 public class Wezel : Kompozyt
 {
-
     private List<Kompozyt> Lista = new List<Kompozyt>();
 
     public string Nazwa { get; set; }
