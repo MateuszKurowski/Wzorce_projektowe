@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Prototyp", "3. Prototyp\3. Prototyp.csproj", "{64397CDE-628C-4D4D-9CCB-F095D5F4095D}"
 EndProject
@@ -17,11 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Most", "6. Most\6. Most.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Kompozyt", "6. Kompozyt\6. Kompozyt.csproj", "{8AC80BD3-76D4-436F-86B4-ED11AAEA4155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Pelnomocnik", "7. Pelnomocnik\7. Pelnomocnik.csproj", "{745CD776-4C05-40AF-B326-7EB8C3E5640B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Pelnomocnik", "7. Pelnomocnik\7. Pelnomocnik.csproj", "{745CD776-4C05-40AF-B326-7EB8C3E5640B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Obserwator", "7. Obserwator\7. Obserwator.csproj", "{F038737F-8A2B-4330-9B96-B0386E56947F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Obserwator", "7. Obserwator\7. Obserwator.csproj", "{F038737F-8A2B-4330-9B96-B0386E56947F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Budowniczy", "2. Budowniczy\2. Budowniczy.csproj", "{9495C3B8-78A7-4C71-9669-A06B6CBDFE29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Budowniczy", "2. Budowniczy\2. Budowniczy.csproj", "{9495C3B8-78A7-4C71-9669-A06B6CBDFE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Lancuch zobowiazan", "8. Lancuch zobowiazan\8. Lancuch zobowiazan.csproj", "{EA3C30FE-1E7B-44EF-838A-C7AAD96DEB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Polecenie", "8. Polecenie\8. Polecenie.csproj", "{8DED6229-AF54-4F24-B053-EA40187F6438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{9495C3B8-78A7-4C71-9669-A06B6CBDFE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9495C3B8-78A7-4C71-9669-A06B6CBDFE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9495C3B8-78A7-4C71-9669-A06B6CBDFE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3C30FE-1E7B-44EF-838A-C7AAD96DEB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3C30FE-1E7B-44EF-838A-C7AAD96DEB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3C30FE-1E7B-44EF-838A-C7AAD96DEB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3C30FE-1E7B-44EF-838A-C7AAD96DEB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DED6229-AF54-4F24-B053-EA40187F6438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DED6229-AF54-4F24-B053-EA40187F6438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DED6229-AF54-4F24-B053-EA40187F6438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DED6229-AF54-4F24-B053-EA40187F6438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
