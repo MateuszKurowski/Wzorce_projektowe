@@ -39,7 +39,7 @@ public class Pilot
     public void WcisnijGuzik() => _polecenie.Wykonaj();
 }
 
-class Program
+static class Program
 {
     static void Main(string[] args)
     {

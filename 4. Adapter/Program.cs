@@ -74,7 +74,7 @@ namespace WzorzecAdapter
         public List<string> GetUserNames() => Read.ReadCSV().Replace(',', ' ').Split('\n').ToList();
     }
 
-    public class Program
+    public static class Program
     {
         public static void Main()
         {

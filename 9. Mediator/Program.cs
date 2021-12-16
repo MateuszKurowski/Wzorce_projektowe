@@ -64,7 +64,8 @@ public class Klient : IUzytkownik
 
     public void OdbierzWiadomosc(string wiadomosc) => Console.WriteLine("Użytkownik " + _login + " otrzymał wiadomość: " + wiadomosc);
 }
-class Program
+
+static class Program
 {
     static void Main(string[] args)
     {

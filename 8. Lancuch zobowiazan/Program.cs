@@ -54,7 +54,7 @@ public class DuzoLancuch : Lancuch
     public void Przetwarzaj(Powiadomienia powiadomienia) => Console.WriteLine($"Dużo powiadomień: {powiadomienia.PobierzLiczbe()}");
 }
 
-class Program
+static class Program
 {
     static void Main(string[] args)
     {
