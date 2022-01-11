@@ -7,7 +7,7 @@ class Zycie
 
     public void Set(string czas)
     {
-        _czas =  czas;
+        _czas = czas;
         Console.WriteLine("Skok do roku: " + _czas);
     }
 
@@ -17,7 +17,11 @@ class Zycie
         return new Pamiatka(_czas);
     }
 
-    public static void PrzywrocPamiatke(Pamiatka pamiatka) => Console.WriteLine("Przywrócono rok: " + pamiatka.PobierzCzas());
+    public void PrzywrocPamiatke(Pamiatka pamiatka)
+    {
+        _czas = pamiatka.PobierzCzas();
+        Console.WriteLine("Przywrócono rok: " + pamiatka.PobierzCzas());
+    }
 
     public class Pamiatka
     {
@@ -49,6 +53,6 @@ static class MainClass
         zapisaneStany.Add(zycie.ZapiszPamiatke());
         zycie.Set("1885");
 
-        Zycie.PrzywrocPamiatke(zapisaneStany[0]);
+        zycie.PrzywrocPamiatke(zapisaneStany[0]);
     }
 }
