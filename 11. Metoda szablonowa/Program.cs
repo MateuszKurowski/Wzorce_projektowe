@@ -8,10 +8,7 @@ internal abstract class ZamowienieTemplatka
     abstract public void DoDostawa();
     abstract public void DoPlatnosc();
     protected static void DodanieGratisu() => Console.WriteLine("Dodano gratis...");
-    public void PrzetwarzajZamowienie(bool czyGratis)
-    {
-        _czyGratis = czyGratis;
-    }
+    public void PrzetwarzajZamowienie(bool czyGratis) => _czyGratis = czyGratis;
 }
 
 internal class ZamowienieStacjonarne : ZamowienieTemplatka
